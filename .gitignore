@@ -1,0 +1,10 @@
+# model artifacts (hosted on Hugging Face, not in git)
+hinglish-sarcasm-model/
+*.zip
+
+# python
+__pycache__/
+*.pyc
+senv/
+.venv/
+.ipynb_checkpoints/
