@@ -3,7 +3,7 @@
 Detects sarcasm in **Hinglish** (Hindi–English code-mixed) text using a fine-tuned
 [MuRIL](https://huggingface.co/google/muril-base-cased) transformer.
 
-**Live app:** _(add your Streamlit URL after deploy)_
+**Live app:** [hinglish-sarcasm-detector](https://hinglish-sarcasm-detector.streamlit.app/)
 **Model:** [naimish2169/hinglish-sarcasm-detector](https://huggingface.co/naimish2169/hinglish-sarcasm-detector)
 
 ## Results
