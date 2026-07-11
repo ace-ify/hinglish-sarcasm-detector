@@ -3,10 +3,9 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import re
 
-# ---- config ----
 MODEL_PATH = "naimish2169/hinglish-sarcasm-detector"   # Hugging Face repo
 MAX_LEN = 128
-THRESHOLD = 0.44   # calibrated on validation set (notebook cell 10b, macro-F1 0.965)
+THRESHOLD = 0.44  
 
 st.set_page_config(page_title="Hinglish Sarcasm Detector", page_icon="🎭")
 
@@ -35,7 +34,6 @@ def predict(text, tok, mdl):
     return prob
 
 
-# ---- UI ----
 st.title("🎭 Hinglish Sarcasm Detector")
 st.caption("MuRIL fine-tuned for code-mixed (Hindi + English) sarcasm detection")
 
